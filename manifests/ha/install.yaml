@@ -281,6 +281,12 @@ spec:
                             description: Values specifies Helm values to be passed
                               to helm template, typically defined as a block
                             type: string
+                          valuesArray:
+                            description: ValuesArray specifies Helm values to be passed
+                              to helm template, typically defined as a block
+                            items:
+                              type: string
+                            type: array
                           version:
                             description: Version is the Helm version to use for templating
                               ("3")
@@ -628,6 +634,12 @@ spec:
                         description: Values specifies Helm values to be passed to
                           helm template, typically defined as a block
                         type: string
+                      valuesArray:
+                        description: ValuesArray specifies Helm values to be passed
+                          to helm template, typically defined as a block
+                        items:
+                          type: string
+                        type: array
                       version:
                         description: Version is the Helm version to use for templating
                           ("3")
@@ -982,6 +994,12 @@ spec:
                               description: Values specifies Helm values to be passed
                                 to helm template, typically defined as a block
                               type: string
+                            valuesArray:
+                              description: ValuesArray specifies Helm values to be
+                                passed to helm template, typically defined as a block
+                              items:
+                                type: string
+                              type: array
                             version:
                               description: Version is the Helm version to use for
                                 templating ("3")
@@ -1353,6 +1371,13 @@ spec:
                                       passed to helm template, typically defined as
                                       a block
                                     type: string
+                                  valuesArray:
+                                    description: ValuesArray specifies Helm values
+                                      to be passed to helm template, typically defined
+                                      as a block
+                                    items:
+                                      type: string
+                                    type: array
                                   version:
                                     description: Version is the Helm version to use
                                       for templating ("3")
@@ -1698,6 +1723,13 @@ spec:
                                 description: Values specifies Helm values to be passed
                                   to helm template, typically defined as a block
                                 type: string
+                              valuesArray:
+                                description: ValuesArray specifies Helm values to
+                                  be passed to helm template, typically defined as
+                                  a block
+                                items:
+                                  type: string
+                                type: array
                               version:
                                 description: Version is the Helm version to use for
                                   templating ("3")
@@ -2032,6 +2064,13 @@ spec:
                                 description: Values specifies Helm values to be passed
                                   to helm template, typically defined as a block
                                 type: string
+                              valuesArray:
+                                description: ValuesArray specifies Helm values to
+                                  be passed to helm template, typically defined as
+                                  a block
+                                items:
+                                  type: string
+                                type: array
                               version:
                                 description: Version is the Helm version to use for
                                   templating ("3")
@@ -2375,6 +2414,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -2662,6 +2705,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -2951,6 +2998,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -3216,6 +3267,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -3511,6 +3566,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -3798,6 +3857,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -4087,6 +4150,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -4352,6 +4419,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -4731,6 +4802,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -5134,6 +5209,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -5392,6 +5471,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -5687,6 +5770,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -5974,6 +6061,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -6263,6 +6354,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -6528,6 +6623,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -6907,6 +7006,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -7310,6 +7413,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -7572,6 +7679,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -7948,6 +8059,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -8351,6 +8466,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -8614,6 +8733,10 @@ spec:
                                 type: array
                               values:
                                 type: string
+                              valuesArray:
+                                items:
+                                  type: string
+                                type: array
                               version:
                                 type: string
                             type: object

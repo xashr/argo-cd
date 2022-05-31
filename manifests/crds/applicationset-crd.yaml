@@ -223,6 +223,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -510,6 +514,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -799,6 +807,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -1064,6 +1076,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -1359,6 +1375,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -1646,6 +1666,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -1935,6 +1959,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -2200,6 +2228,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -2579,6 +2611,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -2982,6 +3018,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -3240,6 +3280,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -3535,6 +3579,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -3822,6 +3870,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -4111,6 +4163,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -4376,6 +4432,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -4755,6 +4815,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -5158,6 +5222,10 @@ spec:
                                                     type: array
                                                   values:
                                                     type: string
+                                                  valuesArray:
+                                                    items:
+                                                      type: string
+                                                    type: array
                                                   version:
                                                     type: string
                                                 type: object
@@ -5420,6 +5488,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -5796,6 +5868,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -6199,6 +6275,10 @@ spec:
                                           type: array
                                         values:
                                           type: string
+                                        valuesArray:
+                                          items:
+                                            type: string
+                                          type: array
                                         version:
                                           type: string
                                       type: object
@@ -6462,6 +6542,10 @@ spec:
                                 type: array
                               values:
                                 type: string
+                              valuesArray:
+                                items:
+                                  type: string
+                                type: array
                               version:
                                 type: string
                             type: object

@@ -358,6 +358,11 @@ func (in *ApplicationSourceHelm) DeepCopyInto(out *ApplicationSourceHelm) {
 		*out = make([]HelmFileParameter, len(*in))
 		copy(*out, *in)
 	}
+	if in.ValuesArray != nil {
+		in, out := &in.ValuesArray, &out.ValuesArray
+		*out = make([]string, len(*in))
+		copy(*out, *in)
+	}
 	return
 }
 

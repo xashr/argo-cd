@@ -214,7 +214,7 @@ message ApplicationSourceHelm {
   // SkipCrds skips custom resource definition installation step (Helm's --skip-crds)
   optional bool skipCrds = 9;
 
-  // ValuesArray specifies an array of Helm values to be passed to helm template, typically defined as a block
+  // ValuesArray specifies Helm values to be passed to helm template, typically defined as a block
   repeated string valuesArray = 10;
 }
 

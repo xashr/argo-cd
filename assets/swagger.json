@@ -3977,6 +3977,13 @@
         "values": {
           "type": "string",
           "title": "the contents of values.yaml"
+        },
+        "valuesArray": {
+          "type": "array",
+          "title": "the array of contents of values.yaml",
+          "items": {
+            "type": "string"
+          }
         }
       }
     },
@@ -4951,6 +4958,13 @@
         "values": {
           "type": "string",
           "title": "Values specifies Helm values to be passed to helm template, typically defined as a block"
+        },
+        "valuesArray": {
+          "type": "array",
+          "title": "ValuesArray specifies Helm values to be passed to helm template, typically defined as a block",
+          "items": {
+            "type": "string"
+          }
         },
         "version": {
           "type": "string",
