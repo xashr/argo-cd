@@ -733,14 +733,20 @@ func helmTemplate(appPath string, repoRoot string, env *v1alpha1.Env, q *apiclie
 			templateOpts.Values = append(templateOpts.Values, path)
 		}
 
+		var Values []string
 		if appHelm.Values != "" {
+			Values = append(Values, appHelm.Values)
+		}
+		Values = append(Values, appHelm.ValuesArray...)
+
+		for _, v := range Values {
 			rand, err := uuid.NewRandom()
 			if err != nil {
 				return nil, err
 			}
 			p := path.Join(os.TempDir(), rand.String())
 			defer func() { _ = os.RemoveAll(p) }()
-			err = ioutil.WriteFile(p, []byte(appHelm.Values), 0644)
+			err = ioutil.WriteFile(p, []byte(v), 0644)
 			if err != nil {
 				return nil, err
 			}
